@@ -1,0 +1,95 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\宋博军\\.ohos\\config\\default_pag_AIUC3TfKSkDqo9pJU2XY8GD4aYLlIORu1YM3H6dpGo4=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A86B9FE8A08FEA39529E7413A08E2937258D387465551E129A7FBBFA0469D3031F1FBF55C4B96",
+          "profile": "C:\\Users\\宋博军\\.ohos\\config\\default_pag_AIUC3TfKSkDqo9pJU2XY8GD4aYLlIORu1YM3H6dpGo4=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\宋博军\\.ohos\\config\\default_pag_AIUC3TfKSkDqo9pJU2XY8GD4aYLlIORu1YM3H6dpGo4=.p12",
+          "storePassword": "0000001AD9FF9D27EB8D22DA54949E74D135F651A7A3AE066A1FE8E7971BECE2A7BE2928E7BB4E2FB4F3"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "deflaut",
+      "srcPath": "./prodect/deflaut",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "srcPath": "./common",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "srcPath": "./prodect/feature",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "homePage",
+      "srcPath": "./featrues/homePage",
+    },
+    {
+      "name": "productPage",
+      "srcPath": "./featrues/productPage",
+    },
+    {
+      "name": "shoppingCarPage",
+      "srcPath": "./featrues/shoppingCarPage",
+    },
+    {
+      "name": "MinePage",
+      "srcPath": "./featrues/MinePage",
+    }
+  ]
+}

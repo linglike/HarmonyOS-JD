@@ -1,0 +1,96 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "京东超市"
+    },
+    {
+      "name": "PayAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PayAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "documentAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "documentAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "DeflautFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "DeflautFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "widget_desc",
+      "value": "This is a service widget."
+    },
+    {
+      "name": "widget_display_name",
+      "value": "widget"
+    },
+    {
+      "name": "card_title",
+      "value": "Title"
+    },
+    {
+      "name": "introduction",
+      "value": "Introduction"
+    },
+    {
+      "name": "widget1_desc",
+      "value": "This is a service widget."
+    },
+    {
+      "name": "widget1_display_name",
+      "value": "widget1"
+    },
+    {
+      "name": "card_list_title",
+      "value": "Title"
+    },
+    {
+      "name": "card_list_content",
+      "value": "Introduction"
+    },
+    {
+      "name": "widget_search",
+      "value": "发现更多"
+    },
+    {
+      "name": "widget_explored",
+      "value": "探索"
+    },
+    {
+      "name": "widget_study",
+      "value": "学习"
+    },
+    {
+      "name": "widget_activity",
+      "value": "活动"
+    },
+    {
+      "name": "widget_mine",
+      "value": "我的"
+    },
+    {
+      "name": "widget_more",
+      "value": "更多信息"
+    }
+  ]
+}

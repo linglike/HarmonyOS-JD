@@ -1,0 +1,17 @@
+{
+  "module": {
+    "name": "shoppingCarPage",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ],
+      "routerMap": "$profile:route_map"
+  },
+// 工程配置文件module.json5中配置 {"routerMap": "$profile:route_map"}
+// route_map.json
+
+
+
+}

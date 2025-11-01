@@ -1,0 +1,43 @@
+{
+  "module": {
+    "name": "MinePage",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "$string:page_show",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:page_show",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "reason": "$string:page_show",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/guidePage",
+    "pages/Detali",
+    "pages/TextToSpeech",
+    "pages/RdbTesting",
+    "pages/textinputs",
+    "pages/websocketPage",
+    "payPage/PayPage",
+    "documentPage/documentPage",
+    "documentPage/documentHome",
+    "pages/Pageper",
+    "pages/Map",
+    "pages/VoiceToText",
+    "pages/axiosPage",
+    "pages/Login",
+    "pages/RegistPage",
+    "pages/LoginPage",
+    "pages/guidePagexieyi"
+  ]
+}

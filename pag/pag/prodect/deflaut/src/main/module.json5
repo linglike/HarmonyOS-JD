@@ -1,0 +1,150 @@
+{
+  "module": {
+    "name": "deflaut",
+    "type": "entry",
+    "srcEntrance": "./ets/MyAbilityStage/MyAbilityStage.ets",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:pingjialogo",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:pingjialogo",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PayAbility",
+        "srcEntry": "./ets/payability/PayAbility.ets",
+        "description": "$string:PayAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:PayAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "documentAbility",
+        "srcEntry": "./ets/documentability/documentAbility.ets",
+        "description": "$string:documentAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:documentAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "launchType": "specified",
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ],
+    "metadata": [
+      {
+        "name": "client_id",
+        "value": "6917565499885489490"  // 配置为获取的Client ID
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          },
+        ]
+      },
+      {
+        "name": "DeflautFormAbility",
+        "srcEntry": "./ets/deflautformability/DeflautFormAbility.ets",
+        "label": "$string:DeflautFormAbility_label",
+        "description": "$string:DeflautFormAbility_desc",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          },
+
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "FormAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.USE_BLUETOOTH"
+      },
+      {
+        "name": "ohos.permission.DISCOVER_BLUETOOTH"
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "UiAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}

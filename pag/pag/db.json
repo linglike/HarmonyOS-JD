@@ -1,0 +1,58 @@
+{
+   "users":[
+      {
+         "id":"0",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202410281157_6e91e1273cb084794dd8301ae6353159.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"REDMI K80 Pro",
+         "price":1999
+      },
+      {
+         "id":"1",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/089128152bd814096a99249a487e383d.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"Xiao Mi 15",
+         "price":2399
+      },
+      {
+         "id":"2",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202407190938_6086b4a2d6895f3f00fe0cbd605239fa.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"REDMI Note",
+         "price":2999
+      },
+      {
+         "id":"3",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202407190938_6086b4a2d6895f3f00fe0cbd605239fa.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"REDMI Note 14 Pro",
+         "price":3999
+      },
+      {
+         "id":"4",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202411261600_4ae42d79b9b21e0727c1bb7a2cddbbf6.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":" REDMI Buds 6 Pro   ",
+         "price":299
+      },
+      {
+         "id":"5",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202404091941_350d7e8fb99f243754861b986168c187.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"xiao 开放式耳机",
+         "price":699
+      },
+      {
+         "id":"6",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202311281956_f87f4c37af45c2261e944f57d29e4a03.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"REDMI Book Pro16",
+         "price":5999
+      },
+      {
+         "id":"7",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/db032eeb9e8efe9551161ee18bf70d3f.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"米家新风空调 pro",
+         "price":1699
+      },
+      {
+         "id":"8",
+         "image":"https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202409191427_77d51675fa8725068209785a11763185.png?thumb=1&w=250&h=250&f=webp&q=90",
+         "title":"石墨烯取暖器",
+         "price":4999
+      }
+   ]
+}
